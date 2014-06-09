@@ -1,4 +1,4 @@
-;(function(global,undefined){
+
 	var Yesterday = function(){
 		var d = new Date();
 		this.today = function(){
@@ -30,4 +30,6 @@
 			return '我好想dayday都是Saturdayヾ(^ω^*)';
 		}
 	};
-})(window,undefined)
+	if(exports && module.exports){
+		exports = module.exports = Yesterday;
+	}

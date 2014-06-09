@@ -1,0 +1,23 @@
+{
+  "name": "yesterdayjs",
+  "version": "0.0.1",
+  "description": "futurejs is a tiny and useful library to manipulate date in JavaScript",
+  "main": "yesterday.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabez128/yesterdayJS.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "date"
+  ],
+  "author": "jabez zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabez128/yesterdayJS/issues"
+  },
+  "homepage": "https://github.com/jabez128/yesterdayJS"
+}
