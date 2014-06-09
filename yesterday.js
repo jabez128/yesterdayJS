@@ -8,19 +8,19 @@
 			d.setDate(d.getDate()-1);
 			return d;
 		};
-		this.yesterday = function(){
+		this.tomorrow = function(){
 			d.setDate(d.getDate()+1);
 			return d;
 		};
 		this.future = function(n){
-			if(!(n instanceof Number)){
+			if(!(Number.isInteger(n))){
 				return 'num must be a number';
 			}
 			d.setDate(d.getDate()+n);
 			return d;
 		};
-		this.future = function(n){
-			if(!(n instanceof Number)){
+		this.past = function(n){
+			if(!(Number.isInteger(n))){
 				return 'num must be a number';
 			}
 			d.setDate(d.getDate()-n);

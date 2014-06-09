@@ -1,6 +1,6 @@
 {
   "name": "yesterdayjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "futurejs is a tiny and useful library to manipulate date in JavaScript",
   "main": "yesterday.js",
   "scripts": {
